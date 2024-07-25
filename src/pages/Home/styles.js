@@ -56,6 +56,9 @@ export const Content = styled.div`
   
     section{
       margin: 0;
+      &:hover{
+        cursor: pointer;
+      }
     }
     a{
       color: ${({ theme }) => theme.COLORS.WHITE};

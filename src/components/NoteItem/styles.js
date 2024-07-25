@@ -3,21 +3,15 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   align-items: center;
+  background: ${({ theme, $isnew }) => $isnew ? "transparent" : theme.COLORS.BACKGROUND_600};
+  color: ${({ theme }) => theme.COLORS.PINK};
+  border: ${({ theme, $isnew }) => $isnew ? `2px dashed ${theme.COLORS.GRAY_200}` : "none"};
+  border-radius: 1rem;
+  padding-right: 1.6rem;
+  
   button{
     border: none;
     background: none;
-  }
-  .add{
-    border: 2px dashed ${({ theme }) => theme.COLORS.GRAY_200};
-    border-radius: 1rem;
-    display: flex;
-    padding-right: 1.6rem;
-  }
-  .delete{
-    background: ${({ theme }) => theme.BACKGROUND_900};
-    border-radius: 1rem;
-    display: flex;
-    padding-right: 1.6rem;
   }
   .button-delete{
     color: ${({ theme }) => theme.COLORS.PINK};

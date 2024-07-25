@@ -11,7 +11,9 @@ export const Container = styled.div`
     align-items: center;
     padding: 0 12.4rem;
     
-    a{
+    button{
+      background: none;
+      border: none;
       display: flex;
       align-items: center;
       gap: .8rem;
@@ -43,6 +45,7 @@ export const Avatar = styled.div`
     width: 18.6rem;
     height: 18.6rem;
     border-radius: 50%;
+    object-fit: cover;
   }
 
   > label{

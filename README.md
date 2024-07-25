@@ -1,6 +1,8 @@
-# RocketNotesWeb
+# React + Vite
 
-This project was developed for films you want to watch or you have watched and want to rate this movie  with your opinion or a little text about the movie.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Screenshot
-![App Screenshot](https://i.imgur.com/h2VLrvB.png)
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

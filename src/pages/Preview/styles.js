@@ -24,7 +24,9 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
 
-    a{
+    button{
+      background: none;
+      border: none;
       align-self: center;
       color: ${({ theme }) => theme.COLORS.PINK};
       display: flex;
@@ -63,6 +65,19 @@ export const Content = styled.div`
     overflow-y: auto;
     text-align: justify;
     padding-right: 1rem;
+
+    button{
+      align-self: center;
+      width: 50rem;
+      height: 6rem;
+      border: 0;
+      background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+      color: ${({ theme }) => theme.COLORS.PINK};
+      font-weight: 500;
+      padding: 0 1.6rem;
+      margin-top: 1.6rem;
+      border-radius: 1rem;
+    }
   }
   .scrollable::-webkit-scrollbar{
     width: 10px;
@@ -85,6 +100,7 @@ export const Data = styled.ul`
     width: 1.8rem;
     height: 1.8rem;
     border-radius: 50%;
+    object-fit: cover;
   }
   p{
     font-size: 1.6rem;
