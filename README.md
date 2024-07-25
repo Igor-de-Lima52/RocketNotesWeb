@@ -1,8 +1,10 @@
-# React + Vite
+## 🚀 About the Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the front-end project for a film resgistration that you watched and rated.
 
-Currently, two official plugins are available:
+## The Project use:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Authentication method using JWT 👨‍💻
+- Images and photos upload 📷
+
+![App Screenshot](https://i.imgur.com/h2VLrvB.png)
